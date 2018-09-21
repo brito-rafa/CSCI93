@@ -1,0 +1,12 @@
+12/10/2017
+The final version of the VPC CPU is under the cpu/vpc/ directory. All other directories are deprecated. This is the version of the final term.
+The ASM programs are under asm/vpc-assembler/. The final mif for the demo is oncpu/vpc/samplevpc/final-project.mif
+
+
+11/06/2017
+After a session with TA Mark Ford (thanks!), he showed me the light. I reduced the ALU code by re-using the same full adder for multiple funct (I should have known at this point). And added hex entity to drive the display. VPC ALU is not perfect but it evolved. The output of the ALU is now 5-bits being the 5th bit the signal of the integer.
+
+11/05/2017
+The prelim ALU has been written using "generic" statement so it can be expanded from  4 bits (current) to 32 bits (VPC arcuitecture).
+The Alu was tested using the switches of the DE2-115 acting as as registers 1 and register 2.
+Logical functs drive a LED17 for true results. Arithmetic functs drive the segment display for numbers.

@@ -1,0 +1,63 @@
+DEPTH = 32768;
+WIDTH = 16;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+0000 : 4C00 ; -- SIBEQ points to label main, decimal value of 4
+0001 : 0004 ; 
+0002 : 56D5 ; -- LW points to label REG_IOCONTROL, decimal value of 65280
+0003 : FF00 ; 
+0004 : 2020 ; 
+0005 : 0803 ; 
+0006 : 4001 ; 
+0007 : 0032 ; 
+0008 : 5AA1 ; -- SW points to label REG_IOBUFFER_1, decimal value of 65284
+0009 : FF04 ; 
+000A : 5AA1 ; -- SW points to label REG_IOBUFFER_2, decimal value of 65288
+000B : FF08 ; 
+000C : 2040 ; 
+000D : 1003 ; 
+000E : 4002 ; 
+000F : 0033 ; 
+0010 : 5AA2 ; -- SW points to label REG_IOBUFFER_1, decimal value of 65284
+0011 : FF04 ; 
+0012 : 5AA2 ; -- SW points to label REG_IOBUFFER_2, decimal value of 65288
+0013 : FF08 ; 
+0014 : 4C00 ; -- SIBEQ points to label main, decimal value of 4
+0015 : 0004 ; 
+0016 : 0000 ; --End of Program Stack
+0017 : 0000 ; 
+0018 : 0000 ; --End of Program Stack
+0019 : 0000 ; 
+001A : 0000 ; --End of Program Stack
+001B : 0000 ; 
+001C : 0000 ; --End of Program Stack
+001D : 0000 ; 
+001E : 0000 ; --End of Program Stack
+001F : 0000 ; 
+0020 : 0000 ; --End of Program Stack
+0021 : 0000 ; 
+0022 : 0000 ; --Free
+0023 : 0000 ; 
+0024 : 0000 ; --Free
+0025 : 0000 ; 
+0026 : 0000 ; --Free
+0027 : 0000 ; 
+0028 : 0000 ; --Free
+0029 : 0000 ; 
+002A : 0000 ; --Free
+002B : 0000 ; 
+002C : 0000 ; --Free
+002D : 0000 ; 
+002E : 0000 ; --Free
+002F : 0000 ; 
+0030 : 0000 ; --Free
+0031 : 0000 ; 
+0032 : 0000 ; --Free
+0033 : 0000 ; 
+0034 : 0000 ; --Free
+0035 : 0000 ; 
+0036 : 0000 ; --Free
+0037 : 0000 ; 
+END

@@ -1,0 +1,45 @@
+DEPTH = 32768;
+WIDTH = 16;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = BIN;
+CONTENT
+BEGIN
+0000 : 0x4C00 ; -- SIBEQ points to label main, decimal value of 4
+0002 : 0x0004 ; 
+0004 : 0x2060 ; 
+0006 : 0x1803 ; 
+0008 : 0x0000 ; --End of Program Stack
+000A : 0x0000 ; 
+000C : 0x0000 ; --End of Program Stack
+000E : 0x0000 ; 
+0010 : 0x0000 ; --End of Program Stack
+0012 : 0x0000 ; 
+0014 : 0x0000 ; --End of Program Stack
+0016 : 0x0000 ; 
+0018 : 0x0000 ; --End of Program Stack
+001A : 0x0000 ; 
+001C : 0x0000 ; --End of Program Stack
+001E : 0x0000 ; 
+0020 : 0x0000 ; --Free
+0022 : 0x0000 ; 
+0024 : 0x0000 ; --Free
+0026 : 0x0000 ; 
+0028 : 0x0000 ; --Free
+002A : 0x0000 ; 
+002C : 0x0000 ; --Free
+002E : 0x0000 ; 
+0030 : 0x0000 ; --Free
+0032 : 0x0000 ; 
+0034 : 0x0000 ; --Free
+0036 : 0x0000 ; 
+0038 : 0x0000 ; --Free
+003A : 0x0000 ; 
+003C : 0x0000 ; --Free
+003E : 0x0000 ; 
+0040 : 0x0000 ; --Free
+0042 : 0x0000 ; 
+0044 : 0x0000 ; --Free
+0046 : 0x0000 ; 
+0048 : 0x0000 ; --Free
+004A : 0x0000 ; 
+END

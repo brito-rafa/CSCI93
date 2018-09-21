@@ -1,0 +1,1149 @@
+DEPTH = 32768;
+WIDTH = 16;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+0000 : 4C00 ; -- SIBEQ points to label main, decimal value of 4
+0001 : 0004 ; 
+0002 : 2A94 ; -- SRJAL points to label zeroregisters, decimal value of 284
+0003 : 011C ; 
+0004 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0005 : 01B0 ; 
+0006 : 5435 ; -- LW points to label welcomemessage0, decimal value of 1280
+0007 : 0500 ; 
+0008 : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+0009 : 016C ; 
+000A : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+000B : 01B0 ; 
+000C : 5435 ; -- LW points to label welcomemessage1, decimal value of 1536
+000D : 0600 ; 
+000E : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+000F : 016C ; 
+0010 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0011 : 01B0 ; 
+0012 : 5435 ; -- LW points to label message1, decimal value of 1688
+0013 : 0698 ; 
+0014 : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+0015 : 016C ; 
+0016 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0017 : 01B0 ; 
+0018 : 5435 ; -- LW points to label inputmemory1, decimal value of 2560
+0019 : 0A00 ; 
+001A : 2A94 ; -- SRJAL points to label inputstring, decimal value of 496
+001B : 01F0 ; 
+001C : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+001D : 01B0 ; 
+001E : 5435 ; -- LW points to label message4, decimal value of 1996
+001F : 07CC ; 
+0020 : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+0021 : 016C ; 
+0022 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0023 : 01B0 ; 
+0024 : 5435 ; -- LW points to label inputmemory1, decimal value of 2560
+0025 : 0A00 ; 
+0026 : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+0027 : 016C ; 
+0028 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0029 : 01B0 ; 
+002A : 5435 ; -- LW points to label message2, decimal value of 1776
+002B : 06F0 ; 
+002C : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+002D : 016C ; 
+002E : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+002F : 01B0 ; 
+0030 : 5435 ; -- LW points to label inputmemory2, decimal value of 2816
+0031 : 0B00 ; 
+0032 : 2A94 ; -- SRJAL points to label inputstring, decimal value of 496
+0033 : 01F0 ; 
+0034 : 5435 ; -- LW points to label message5, decimal value of 2116
+0035 : 0844 ; 
+0036 : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+0037 : 016C ; 
+0038 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0039 : 01B0 ; 
+003A : 5435 ; -- LW points to label inputmemory2, decimal value of 2816
+003B : 0B00 ; 
+003C : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+003D : 016C ; 
+003E : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+003F : 01B0 ; 
+0040 : 2320 ; 
+0041 : C803 ; 
+0042 : 2340 ; 
+0043 : D003 ; 
+0044 : 5435 ; -- LW points to label inputmemory1, decimal value of 2560
+0045 : 0A00 ; 
+0046 : 2A94 ; -- SRJAL points to label convertstringtointeger, decimal value of 944
+0047 : 03B0 ; 
+0048 : 21A0 ; 
+0049 : 6803 ; 
+004A : 232D ; 
+004B : 6804 ; 
+004C : 2320 ; 
+004D : C803 ; 
+004E : 2340 ; 
+004F : D003 ; 
+0050 : 5435 ; -- LW points to label inputmemory2, decimal value of 2816
+0051 : 0B00 ; 
+0052 : 2A94 ; -- SRJAL points to label convertstringtointeger, decimal value of 944
+0053 : 03B0 ; 
+0054 : 21C0 ; 
+0055 : 7003 ; 
+0056 : 232E ; 
+0057 : 7004 ; 
+0058 : 2020 ; 
+0059 : 0803 ; 
+005A : 202D ; 
+005B : 0804 ; 
+005C : 2040 ; 
+005D : 1003 ; 
+005E : 204E ; 
+005F : 1004 ; 
+0060 : 2320 ; 
+0061 : C803 ; 
+0062 : 2340 ; 
+0063 : D003 ; 
+0064 : 0F5A ; 
+0065 : 0001 ; 
+0066 : 2020 ; 
+0067 : D807 ; 
+0068 : 2040 ; 
+0069 : E007 ; 
+006A : 2A94 ; -- SRJAL points to label multiply, decimal value of 1072
+006B : 0430 ; 
+006C : 21E0 ; 
+006D : 7803 ; 
+006E : 232F ; 
+006F : 7804 ; 
+0070 : 237C ; 
+0071 : E806 ; 
+0072 : 2020 ; 
+0073 : 0803 ; 
+0074 : 202F ; 
+0075 : 0801 ; 
+0076 : 501D ; -- SIBNEQ points to label convertnegativetopositive, decimal value of 1136
+0077 : 0470 ; 
+0078 : 2200 ; 
+0079 : 8003 ; 
+007A : 2219 ; 
+007B : 8004 ; 
+007C : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+007D : 01B0 ; 
+007E : 5435 ; -- LW points to label message3, decimal value of 1864
+007F : 0748 ; 
+0080 : 2A94 ; -- SRJAL points to label outputstring, decimal value of 364
+0081 : 016C ; 
+0082 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0083 : 01B0 ; 
+0084 : 2020 ; 
+0085 : 0803 ; 
+0086 : 2030 ; 
+0087 : 0801 ; 
+0088 : 2A94 ; -- SRJAL points to label displayint, decimal value of 592
+0089 : 0250 ; 
+008A : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+008B : 01B0 ; 
+008C : 5000 ; -- SIBNEQ points to label main, decimal value of 4
+008D : 0004 ; 
+008E : 0C00 ; 
+008F : 0000 ; 
+0090 : 2060 ; 
+0091 : 1803 ; 
+0092 : 2080 ; 
+0093 : 2003 ; 
+0094 : 20A0 ; 
+0095 : 2803 ; 
+0096 : 20C0 ; 
+0097 : 3003 ; 
+0098 : 2320 ; 
+0099 : C803 ; 
+009A : 2340 ; 
+009B : D003 ; 
+009C : 2020 ; 
+009D : 0803 ; 
+009E : 2040 ; 
+009F : 1003 ; 
+00A0 : 22A0 ; 
+00A1 : A803 ; 
+00A2 : 22C0 ; 
+00A3 : B003 ; 
+00A4 : 22E0 ; 
+00A5 : B803 ; 
+00A6 : 21A0 ; 
+00A7 : 6803 ; 
+00A8 : 21C0 ; 
+00A9 : 7003 ; 
+00AA : 21E0 ; 
+00AB : 7803 ; 
+00AC : 2200 ; 
+00AD : 8003 ; 
+00AE : 2220 ; 
+00AF : 8803 ; 
+00B0 : 2240 ; 
+00B1 : 9003 ; 
+00B2 : 2260 ; 
+00B3 : 9803 ; 
+00B4 : 2C1F ; 
+00B5 : 0000 ; 
+00B6 : 20C0 ; 
+00B7 : 3003 ; 
+00B8 : 20C1 ; 
+00B9 : 3004 ; 
+00BA : 2060 ; 
+00BB : 1803 ; 
+00BC : 0463 ; 
+00BD : 000A ; 
+00BE : 20E0 ; 
+00BF : 3803 ; 
+00C0 : 04E7 ; 
+00C1 : 000D ; 
+00C2 : 5CC4 ; 
+00C3 : 0000 ; 
+00C4 : 2020 ; 
+00C5 : 0803 ; 
+00C6 : 2024 ; 
+00C7 : 0804 ; 
+00C8 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+00C9 : 01D0 ; 
+00CA : 4CE4 ; -- SIBEQ points to label printnewline, decimal value of 432
+00CB : 01B0 ; 
+00CC : 3083 ; 
+00CD : A000 ; 
+00CE : 3087 ; 
+00CF : A000 ; 
+00D0 : 04C6 ; 
+00D1 : 0004 ; 
+00D2 : 2020 ; 
+00D3 : 0803 ; 
+00D4 : 2026 ; 
+00D5 : 0804 ; 
+00D6 : 2A73 ; -- SRJAL points to label outputstring, decimal value of 364
+00D7 : 016C ; 
+00D8 : 20A0 ; 
+00D9 : 2803 ; 
+00DA : 20BF ; 
+00DB : 2804 ; 
+00DC : 2020 ; 
+00DD : 0803 ; 
+00DE : 0421 ; 
+00DF : 000A ; 
+00E0 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+00E1 : 01D0 ; 
+00E2 : 0421 ; 
+00E3 : 000D ; 
+00E4 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+00E5 : 01D0 ; 
+00E6 : 2C05 ; 
+00E7 : 0000 ; 
+00E8 : 4C00 ; -- SIBEQ points to label writeonbuffer, decimal value of 476
+00E9 : 01DC ; 
+00EA : 3020 ; 
+00EB : 9000 ; 
+00EC : 2A31 ; -- SRJAL points to label outputchar, decimal value of 464
+00ED : 01D0 ; 
+00EE : 2020 ; 
+00EF : 0C09 ; 
+00F0 : 5AA1 ; -- SW points to label REG_IOBUFFER_1, decimal value of 65284
+00F1 : FF04 ; 
+00F2 : 5AA1 ; -- SW points to label REG_IOBUFFER_2, decimal value of 65288
+00F3 : FF08 ; 
+00F4 : 2020 ; 
+00F5 : 0803 ; 
+00F6 : 2C1F ; 
+00F7 : 0000 ; 
+00F8 : 20C0 ; 
+00F9 : 3003 ; 
+00FA : 20C1 ; 
+00FB : 3004 ; 
+00FC : 2060 ; 
+00FD : 1803 ; 
+00FE : 0463 ; 
+00FF : 000D ; 
+0100 : 2080 ; 
+0101 : 2003 ; 
+0102 : 0484 ; 
+0103 : 000A ; 
+0104 : 2020 ; 
+0105 : 0803 ; 
+0106 : 2A52 ; -- SRJAL points to label inputchar, decimal value of 560
+0107 : 0230 ; 
+0108 : 2020 ; 
+0109 : 0C08 ; 
+010A : 60C1 ; 
+010B : 0000 ; 
+010C : 3023 ; 
+010D : A000 ; 
+010E : 3024 ; 
+010F : A000 ; 
+0110 : 04C6 ; 
+0111 : 0004 ; 
+0112 : 2020 ; 
+0113 : 0803 ; 
+0114 : 2026 ; 
+0115 : 0804 ; 
+0116 : 2A73 ; -- SRJAL points to label inputstring, decimal value of 496
+0117 : 01F0 ; 
+0118 : 20E0 ; 
+0119 : 3803 ; 
+011A : 04E7 ; 
+011B : 2BAD ; 
+011C : 4007 ; 
+011D : 2BAD ; 
+011E : 4C00 ; -- SIBEQ points to label inputonbuffer, decimal value of 584
+011F : 0248 ; 
+0120 : 3427 ; 
+0121 : 9000 ; 
+0122 : 2A31 ; -- SRJAL points to label inputchar, decimal value of 560
+0123 : 0230 ; 
+0124 : 56C1 ; -- LW points to label REG_IOBUFFER_1, decimal value of 65284
+0125 : FF04 ; 
+0126 : 2C1F ; 
+0127 : 0000 ; 
+0128 : 4C01 ; -- SIBEQ points to label displayzeros, decimal value of 896
+0129 : 0380 ; 
+012A : 3020 ; 
+012B : A000 ; 
+012C : 2200 ; 
+012D : 5007 ; 
+012E : 2120 ; 
+012F : 4803 ; 
+0130 : 500A ; -- SIBNEQ points to label convertnegativetopositive, decimal value of 1136
+0131 : 0470 ; 
+0132 : 500A ; -- SIBNEQ points to label prepforintegerdisplayconversion, decimal value of 856
+0133 : 0358 ; 
+0134 : 2040 ; 
+0135 : 1003 ; 
+0136 : 0442 ; 
+0137 : 2710 ; 
+0138 : 4C00 ; -- SIBEQ points to label processnumber, decimal value of 684
+0139 : 02AC ; 
+013A : 2040 ; 
+013B : 1003 ; 
+013C : 0442 ; 
+013D : 03E8 ; 
+013E : 4C00 ; -- SIBEQ points to label processnumber, decimal value of 684
+013F : 02AC ; 
+0140 : 2040 ; 
+0141 : 1003 ; 
+0142 : 0442 ; 
+0143 : 0064 ; 
+0144 : 4C00 ; -- SIBEQ points to label processnumber, decimal value of 684
+0145 : 02AC ; 
+0146 : 2040 ; 
+0147 : 1003 ; 
+0148 : 0442 ; 
+0149 : 000A ; 
+014A : 4C00 ; -- SIBEQ points to label processnumber, decimal value of 684
+014B : 02AC ; 
+014C : 2040 ; 
+014D : 1003 ; 
+014E : 0442 ; 
+014F : 0001 ; 
+0150 : 4C00 ; -- SIBEQ points to label processnumber, decimal value of 684
+0151 : 02AC ; 
+0152 : 4C00 ; -- SIBEQ points to label printnewline, decimal value of 432
+0153 : 01B0 ; 
+0154 : 2C14 ; 
+0155 : 0000 ; 
+0156 : 2080 ; 
+0157 : 2003 ; 
+0158 : 209F ; 
+0159 : 2001 ; 
+015A : 22E0 ; 
+015B : B803 ; 
+015C : 22E2 ; 
+015D : B801 ; 
+015E : 2100 ; 
+015F : 4003 ; 
+0160 : 2101 ; 
+0161 : 4001 ; 
+0162 : 0508 ; 
+0163 : 0001 ; 
+0164 : 22E8 ; 
+0165 : B007 ; 
+0166 : 22E8 ; 
+0167 : C007 ; 
+0168 : 4C16 ; -- SIBEQ points to label checkforzero, decimal value of 732
+0169 : 02DC ; 
+016A : 5018 ; -- SIBNEQ points to label prepdisplaynumorder, decimal value of 764
+016B : 02FC ; 
+016C : 2C04 ; 
+016D : 0000 ; 
+016E : 23A0 ; 
+016F : E803 ; 
+0170 : 23BF ; 
+0171 : E801 ; 
+0172 : 2380 ; 
+0173 : E003 ; 
+0174 : 2381 ; 
+0175 : E001 ; 
+0176 : 5009 ; -- SIBNEQ points to label displayzeros, decimal value of 896
+0177 : 0380 ; 
+0178 : 2020 ; 
+0179 : 0803 ; 
+017A : 203C ; 
+017B : 0801 ; 
+017C : 2C1D ; 
+017D : 0000 ; 
+017E : 2060 ; 
+017F : 1803 ; 
+0180 : 2061 ; 
+0181 : 1801 ; 
+0182 : 20A0 ; 
+0183 : 2803 ; 
+0184 : 20BF ; 
+0185 : 2801 ; 
+0186 : 2040 ; 
+0187 : 1003 ; 
+0188 : 2057 ; 
+0189 : 1001 ; 
+018A : 2320 ; 
+018B : C803 ; 
+018C : 2340 ; 
+018D : D003 ; 
+018E : 2A73 ; -- SRJAL points to label simpledivision, decimal value of 832
+018F : 0340 ; 
+0190 : 2020 ; 
+0191 : 0803 ; 
+0192 : 2039 ; 
+0193 : 0801 ; 
+0194 : 0421 ; 
+0195 : 0030 ; 
+0196 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+0197 : 01D0 ; 
+0198 : 203A ; 
+0199 : 0801 ; 
+019A : 2120 ; 
+019B : 4803 ; 
+019C : 0529 ; 
+019D : 0001 ; 
+019E : 2C05 ; 
+019F : 0000 ; 
+01A0 : 2022 ; 
+01A1 : A807 ; 
+01A2 : 36A0 ; 
+01A3 : 9800 ; 
+01A4 : 2022 ; 
+01A5 : D002 ; 
+01A6 : 2022 ; 
+01A7 : 0802 ; 
+01A8 : 0739 ; 
+01A9 : 0001 ; 
+01AA : 2A52 ; -- SRJAL points to label simpledivision, decimal value of 832
+01AB : 0340 ; 
+01AC : 2080 ; 
+01AD : 2003 ; 
+01AE : 2081 ; 
+01AF : 2001 ; 
+01B0 : 20A0 ; 
+01B1 : 2803 ; 
+01B2 : 20BF ; 
+01B3 : 2801 ; 
+01B4 : 2020 ; 
+01B5 : 0803 ; 
+01B6 : 0421 ; 
+01B7 : 002D ; 
+01B8 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+01B9 : 01D0 ; 
+01BA : 2020 ; 
+01BB : 0803 ; 
+01BC : 2039 ; 
+01BD : 0801 ; 
+01BE : 2C05 ; 
+01BF : 0000 ; 
+01C0 : 20A0 ; 
+01C1 : 2803 ; 
+01C2 : 20BF ; 
+01C3 : 2801 ; 
+01C4 : 2020 ; 
+01C5 : 0803 ; 
+01C6 : 0421 ; 
+01C7 : 0030 ; 
+01C8 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+01C9 : 01D0 ; 
+01CA : 2C05 ; 
+01CB : 0000 ; 
+01CC : 20A0 ; 
+01CD : 2803 ; 
+01CE : 20BF ; 
+01CF : 2801 ; 
+01D0 : 2020 ; 
+01D1 : 0803 ; 
+01D2 : 0421 ; 
+01D3 : 002D ; 
+01D4 : 2A52 ; -- SRJAL points to label outputchar, decimal value of 464
+01D5 : 01D0 ; 
+01D6 : 2C05 ; 
+01D7 : 0000 ; 
+01D8 : 5C23 ; 
+01D9 : 0000 ; 
+01DA : 22A0 ; 
+01DB : A803 ; 
+01DC : 06B5 ; 
+01DD : 002D ; 
+01DE : 4C75 ; -- SIBEQ points to label isnegative, decimal value of 1052
+01DF : 041C ; 
+01E0 : 20A0 ; 
+01E1 : 2803 ; 
+01E2 : 04A5 ; 
+01E3 : 000D ; 
+01E4 : 20C0 ; 
+01E5 : 3003 ; 
+01E6 : 04C6 ; 
+01E7 : 000A ; 
+01E8 : 2A73 ; -- SRJAL points to label readincrement, decimal value of 988
+01E9 : 03DC ; 
+01EA : 501A ; -- SIBNEQ points to label flipsignal, decimal value of 1064
+01EB : 0428 ; 
+01EC : 2C14 ; 
+01ED : 0000 ; 
+01EE : 5C23 ; 
+01EF : 0000 ; 
+01F0 : 30A3 ; 
+01F1 : 9800 ; 
+01F2 : 30C3 ; 
+01F3 : 9800 ; 
+01F4 : 0863 ; 
+01F5 : 0030 ; 
+01F6 : 22E0 ; 
+01F7 : B803 ; 
+01F8 : 2300 ; 
+01F9 : C003 ; 
+01FA : 22F9 ; 
+01FB : B804 ; 
+01FC : 2319 ; 
+01FD : C004 ; 
+01FE : 22E0 ; 
+01FF : B8C9 ; 
+0200 : 2300 ; 
+0201 : C049 ; 
+0202 : 2320 ; 
+0203 : C803 ; 
+0204 : 2337 ; 
+0205 : C801 ; 
+0206 : 2338 ; 
+0207 : C801 ; 
+0208 : 2323 ; 
+0209 : C801 ; 
+020A : 0421 ; 
+020B : 0004 ; 
+020C : 2A52 ; -- SRJAL points to label readincrement, decimal value of 988
+020D : 03DC ; 
+020E : 0421 ; 
+020F : 0004 ; 
+0210 : 075A ; 
+0211 : 0001 ; 
+0212 : 2C1F ; 
+0213 : 0000 ; 
+0214 : 2019 ; 
+0215 : C802 ; 
+0216 : 2C1F ; 
+0217 : 0000 ; 
+0218 : 3020 ; 
+0219 : A000 ; 
+021A : 3040 ; 
+021B : A000 ; 
+021C : 2020 ; 
+021D : B007 ; 
+021E : 5016 ; -- SIBNEQ points to label prepformultiplicandconversion, decimal value of 1144
+021F : 0478 ; 
+0220 : 5016 ; -- SIBNEQ points to label convertnegativetopositive, decimal value of 1136
+0221 : 0470 ; 
+0222 : 5016 ; -- SIBNEQ points to label restoreformultiplicandconversion, decimal value of 1172
+0223 : 0494 ; 
+0224 : 2040 ; 
+0225 : B807 ; 
+0226 : 5017 ; -- SIBNEQ points to label prepformultiplierconversion, decimal value of 1192
+0227 : 04A8 ; 
+0228 : 5017 ; -- SIBNEQ points to label convertnegativetopositive, decimal value of 1136
+0229 : 0470 ; 
+022A : 5017 ; -- SIBNEQ points to label restoreformultiplierconversion, decimal value of 1228
+022B : 04CC ; 
+022C : 205A ; 
+022D : A807 ; 
+022E : 36A0 ; 
+022F : A000 ; 
+0230 : 2321 ; 
+0231 : C801 ; 
+0232 : 075A ; 
+0233 : 0001 ; 
+0234 : 305A ; 
+0235 : A000 ; 
+0236 : 2A73 ; -- SRJAL points to label multiply, decimal value of 1072
+0237 : 0430 ; 
+0238 : 2001 ; 
+0239 : C802 ; 
+023A : 2C1F ; 
+023B : 0000 ; 
+023C : 2060 ; 
+023D : 1803 ; 
+023E : 2061 ; 
+023F : 1801 ; 
+0240 : 2080 ; 
+0241 : 2003 ; 
+0242 : 2082 ; 
+0243 : 2001 ; 
+0244 : 20A0 ; 
+0245 : 2803 ; 
+0246 : 20B9 ; 
+0247 : 2801 ; 
+0248 : 2C1F ; 
+0249 : 0000 ; 
+024A : 2020 ; 
+024B : 0803 ; 
+024C : 2039 ; 
+024D : 0801 ; 
+024E : 2320 ; 
+024F : C803 ; 
+0250 : 2325 ; 
+0251 : C801 ; 
+0252 : 2C1F ; 
+0253 : 0000 ; 
+0254 : 2060 ; 
+0255 : 1803 ; 
+0256 : 2061 ; 
+0257 : 1801 ; 
+0258 : 2080 ; 
+0259 : 2003 ; 
+025A : 2082 ; 
+025B : 2001 ; 
+025C : 20A0 ; 
+025D : 2803 ; 
+025E : 20B9 ; 
+025F : 2801 ; 
+0260 : 2020 ; 
+0261 : 0803 ; 
+0262 : 2040 ; 
+0263 : 0801 ; 
+0264 : 2C1F ; 
+0265 : 0000 ; 
+0266 : 2040 ; 
+0267 : 1003 ; 
+0268 : 2059 ; 
+0269 : 1001 ; 
+026A : 2320 ; 
+026B : C803 ; 
+026C : 2325 ; 
+026D : C801 ; 
+026E : 2020 ; 
+026F : 0803 ; 
+0270 : 2023 ; 
+0271 : 0801 ; 
+0272 : 2C1F ; 
+0273 : 0000 ; 
+0274 : 0000 ; --End of Program Stack
+0275 : 0000 ; 
+0276 : 0000 ; --End of Program Stack
+0277 : 0000 ; 
+0278 : 0000 ; --End of Program Stack
+0279 : 0000 ; 
+027A : 0000 ; --End of Program Stack
+027B : 0000 ; 
+027C : 0000 ; --End of Program Stack
+027D : 0000 ; 
+027E : 0000 ; --End of Program Stack
+027F : 0000 ; 
+0280 : 0000 ; --data W
+0281 : 0057 ; 
+0282 : 0000 ; --data E
+0283 : 0045 ; 
+0284 : 0000 ; --data L
+0285 : 004C ; 
+0286 : 0000 ; --data C
+0287 : 0043 ; 
+0288 : 0000 ; --data O
+0289 : 004F ; 
+028A : 0000 ; --data M
+028B : 004D ; 
+028C : 0000 ; --data E
+028D : 0045 ; 
+028E : 0000 ; --data  
+028F : 0020 ; 
+0290 : 0000 ; --data T
+0291 : 0054 ; 
+0292 : 0000 ; --data O
+0293 : 004F ; 
+0294 : 0000 ; --data  
+0295 : 0020 ; 
+0296 : 0000 ; --data T
+0297 : 0054 ; 
+0298 : 0000 ; --data H
+0299 : 0048 ; 
+029A : 0000 ; --data E
+029B : 0045 ; 
+029C : 0000 ; --data  
+029D : 0020 ; 
+029E : 0000 ; --data D
+029F : 0044 ; 
+02A0 : 0000 ; --data E
+02A1 : 0045 ; 
+02A2 : 0000 ; --data M
+02A3 : 004D ; 
+02A4 : 0000 ; --data O
+02A5 : 004F ; 
+02A6 : 0000 ; --data  
+02A7 : 0020 ; 
+02A8 : 0000 ; --data P
+02A9 : 0050 ; 
+02AA : 0000 ; --data R
+02AB : 0052 ; 
+02AC : 0000 ; --data O
+02AD : 004F ; 
+02AE : 0000 ; --data G
+02AF : 0047 ; 
+02B0 : 0000 ; --data R
+02B1 : 0052 ; 
+02B2 : 0000 ; --data A
+02B3 : 0041 ; 
+02B4 : 0000 ; --data M
+02B5 : 004D ; 
+02B6 : 0000 ; --data  
+02B7 : 0020 ; 
+02B8 : 0000 ; --data O
+02B9 : 004F ; 
+02BA : 0000 ; --data F
+02BB : 0046 ; 
+02BC : 0000 ; --data  
+02BD : 0020 ; 
+02BE : 0000 ; --data V
+02BF : 0056 ; 
+02C0 : 0000 ; --data U
+02C1 : 0055 ; 
+02C2 : 0000 ; --data L
+02C3 : 004C ; 
+02C4 : 0000 ; --data T
+02C5 : 0054 ; 
+02C6 : 0000 ; --data U
+02C7 : 0055 ; 
+02C8 : 0000 ; --data R
+02C9 : 0052 ; 
+02CA : 0000 ; --data E
+02CB : 0045 ; 
+02CC : 0000 ; --data  
+02CD : 0020 ; 
+02CE : 0000 ; --data P
+02CF : 0050 ; 
+02D0 : 0000 ; --data L
+02D1 : 004C ; 
+02D2 : 0000 ; --data A
+02D3 : 0041 ; 
+02D4 : 0000 ; --data T
+02D5 : 0054 ; 
+02D6 : 0000 ; --data F
+02D7 : 0046 ; 
+02D8 : 0000 ; --data O
+02D9 : 004F ; 
+02DA : 0000 ; --data R
+02DB : 0052 ; 
+02DC : 0000 ; --data M
+02DD : 004D ; 
+02DE : 0000 ; --data  
+02DF : 0020 ; 
+02E0 : 0000 ; --data C
+02E1 : 0043 ; 
+02E2 : 0000 ; --data O
+02E3 : 004F ; 
+02E4 : 0000 ; --data M
+02E5 : 004D ; 
+02E6 : 0000 ; --data P
+02E7 : 0050 ; 
+02E8 : 0000 ; --data U
+02E9 : 0055 ; 
+02EA : 0000 ; --data T
+02EB : 0054 ; 
+02EC : 0000 ; --data E
+02ED : 0045 ; 
+02EE : 0000 ; --data R
+02EF : 0052 ; 
+02F0 : 0000 ; --data  
+02F1 : 0020 ; 
+02F2 : 0000 ; --data (
+02F3 : 0028 ; 
+02F4 : 0000 ; --data V
+02F5 : 0056 ; 
+02F6 : 0000 ; --data P
+02F7 : 0050 ; 
+02F8 : 0000 ; --data C
+02F9 : 0043 ; 
+02FA : 0000 ; --data )
+02FB : 0029 ; 
+02FC : 0000 ; --data  
+02FD : 0020 ; 
+02FE : 0000 ; --data end of label
+02FF : 000A ; 
+0300 : 0000 ; --data H
+0301 : 0048 ; 
+0302 : 0000 ; --data a
+0303 : 0061 ; 
+0304 : 0000 ; --data r
+0305 : 0072 ; 
+0306 : 0000 ; --data v
+0307 : 0076 ; 
+0308 : 0000 ; --data a
+0309 : 0061 ; 
+030A : 0000 ; --data r
+030B : 0072 ; 
+030C : 0000 ; --data d
+030D : 0064 ; 
+030E : 0000 ; --data  
+030F : 0020 ; 
+0310 : 0000 ; --data E
+0311 : 0045 ; 
+0312 : 0000 ; --data x
+0313 : 0078 ; 
+0314 : 0000 ; --data t
+0315 : 0074 ; 
+0316 : 0000 ; --data e
+0317 : 0065 ; 
+0318 : 0000 ; --data n
+0319 : 006E ; 
+031A : 0000 ; --data s
+031B : 0073 ; 
+031C : 0000 ; --data i
+031D : 0069 ; 
+031E : 0000 ; --data o
+031F : 006F ; 
+0320 : 0000 ; --data n
+0321 : 006E ; 
+0322 : 0000 ; --data  
+0323 : 0020 ; 
+0324 : 0000 ; --data S
+0325 : 0053 ; 
+0326 : 0000 ; --data c
+0327 : 0063 ; 
+0328 : 0000 ; --data h
+0329 : 0068 ; 
+032A : 0000 ; --data o
+032B : 006F ; 
+032C : 0000 ; --data o
+032D : 006F ; 
+032E : 0000 ; --data l
+032F : 006C ; 
+0330 : 0000 ; --data  
+0331 : 0020 ; 
+0332 : 0000 ; --data -
+0333 : 002D ; 
+0334 : 0000 ; --data  
+0335 : 0020 ; 
+0336 : 0000 ; --data C
+0337 : 0043 ; 
+0338 : 0000 ; --data S
+0339 : 0053 ; 
+033A : 0000 ; --data C
+033B : 0043 ; 
+033C : 0000 ; --data I
+033D : 0049 ; 
+033E : 0000 ; --data  
+033F : 0020 ; 
+0340 : 0000 ; --data E
+0341 : 0045 ; 
+0342 : 0000 ; --data -
+0343 : 002D ; 
+0344 : 0000 ; --data 9
+0345 : 0039 ; 
+0346 : 0000 ; --data 3
+0347 : 0033 ; 
+0348 : 0000 ; --data  
+0349 : 0020 ; 
+034A : 0000 ; --data end of label
+034B : 000A ; 
+034C : 0000 ; --data E
+034D : 0045 ; 
+034E : 0000 ; --data n
+034F : 006E ; 
+0350 : 0000 ; --data t
+0351 : 0074 ; 
+0352 : 0000 ; --data e
+0353 : 0065 ; 
+0354 : 0000 ; --data r
+0355 : 0072 ; 
+0356 : 0000 ; --data  
+0357 : 0020 ; 
+0358 : 0000 ; --data F
+0359 : 0046 ; 
+035A : 0000 ; --data i
+035B : 0069 ; 
+035C : 0000 ; --data r
+035D : 0072 ; 
+035E : 0000 ; --data s
+035F : 0073 ; 
+0360 : 0000 ; --data t
+0361 : 0074 ; 
+0362 : 0000 ; --data  
+0363 : 0020 ; 
+0364 : 0000 ; --data N
+0365 : 004E ; 
+0366 : 0000 ; --data u
+0367 : 0075 ; 
+0368 : 0000 ; --data m
+0369 : 006D ; 
+036A : 0000 ; --data b
+036B : 0062 ; 
+036C : 0000 ; --data e
+036D : 0065 ; 
+036E : 0000 ; --data r
+036F : 0072 ; 
+0370 : 0000 ; --data .
+0371 : 002E ; 
+0372 : 0000 ; --data  
+0373 : 0020 ; 
+0374 : 0000 ; --data  
+0375 : 0020 ; 
+0376 : 0000 ; --data end of label
+0377 : 000A ; 
+0378 : 0000 ; --data E
+0379 : 0045 ; 
+037A : 0000 ; --data n
+037B : 006E ; 
+037C : 0000 ; --data t
+037D : 0074 ; 
+037E : 0000 ; --data e
+037F : 0065 ; 
+0380 : 0000 ; --data r
+0381 : 0072 ; 
+0382 : 0000 ; --data  
+0383 : 0020 ; 
+0384 : 0000 ; --data S
+0385 : 0053 ; 
+0386 : 0000 ; --data e
+0387 : 0065 ; 
+0388 : 0000 ; --data c
+0389 : 0063 ; 
+038A : 0000 ; --data o
+038B : 006F ; 
+038C : 0000 ; --data n
+038D : 006E ; 
+038E : 0000 ; --data d
+038F : 0064 ; 
+0390 : 0000 ; --data  
+0391 : 0020 ; 
+0392 : 0000 ; --data N
+0393 : 004E ; 
+0394 : 0000 ; --data u
+0395 : 0075 ; 
+0396 : 0000 ; --data m
+0397 : 006D ; 
+0398 : 0000 ; --data b
+0399 : 0062 ; 
+039A : 0000 ; --data e
+039B : 0065 ; 
+039C : 0000 ; --data r
+039D : 0072 ; 
+039E : 0000 ; --data .
+039F : 002E ; 
+03A0 : 0000 ; --data  
+03A1 : 0020 ; 
+03A2 : 0000 ; --data end of label
+03A3 : 000A ; 
+03A4 : 0000 ; --data R
+03A5 : 0052 ; 
+03A6 : 0000 ; --data e
+03A7 : 0065 ; 
+03A8 : 0000 ; --data s
+03A9 : 0073 ; 
+03AA : 0000 ; --data u
+03AB : 0075 ; 
+03AC : 0000 ; --data l
+03AD : 006C ; 
+03AE : 0000 ; --data t
+03AF : 0074 ; 
+03B0 : 0000 ; --data  
+03B1 : 0020 ; 
+03B2 : 0000 ; --data o
+03B3 : 006F ; 
+03B4 : 0000 ; --data f
+03B5 : 0066 ; 
+03B6 : 0000 ; --data  
+03B7 : 0020 ; 
+03B8 : 0000 ; --data M
+03B9 : 004D ; 
+03BA : 0000 ; --data u
+03BB : 0075 ; 
+03BC : 0000 ; --data l
+03BD : 006C ; 
+03BE : 0000 ; --data t
+03BF : 0074 ; 
+03C0 : 0000 ; --data i
+03C1 : 0069 ; 
+03C2 : 0000 ; --data p
+03C3 : 0070 ; 
+03C4 : 0000 ; --data l
+03C5 : 006C ; 
+03C6 : 0000 ; --data i
+03C7 : 0069 ; 
+03C8 : 0000 ; --data c
+03C9 : 0063 ; 
+03CA : 0000 ; --data a
+03CB : 0061 ; 
+03CC : 0000 ; --data t
+03CD : 0074 ; 
+03CE : 0000 ; --data i
+03CF : 0069 ; 
+03D0 : 0000 ; --data o
+03D1 : 006F ; 
+03D2 : 0000 ; --data n
+03D3 : 006E ; 
+03D4 : 0000 ; --data  
+03D5 : 0020 ; 
+03D6 : 0000 ; --data i
+03D7 : 0069 ; 
+03D8 : 0000 ; --data s
+03D9 : 0073 ; 
+03DA : 0000 ; --data  
+03DB : 0020 ; 
+03DC : 0000 ; --data .
+03DD : 002E ; 
+03DE : 0000 ; --data .
+03DF : 002E ; 
+03E0 : 0000 ; --data .
+03E1 : 002E ; 
+03E2 : 0000 ; --data  
+03E3 : 0020 ; 
+03E4 : 0000 ; --data end of label
+03E5 : 000A ; 
+03E6 : 0000 ; --data T
+03E7 : 0054 ; 
+03E8 : 0000 ; --data h
+03E9 : 0068 ; 
+03EA : 0000 ; --data e
+03EB : 0065 ; 
+03EC : 0000 ; --data  
+03ED : 0020 ; 
+03EE : 0000 ; --data f
+03EF : 0066 ; 
+03F0 : 0000 ; --data i
+03F1 : 0069 ; 
+03F2 : 0000 ; --data r
+03F3 : 0072 ; 
+03F4 : 0000 ; --data s
+03F5 : 0073 ; 
+03F6 : 0000 ; --data t
+03F7 : 0074 ; 
+03F8 : 0000 ; --data  
+03F9 : 0020 ; 
+03FA : 0000 ; --data n
+03FB : 006E ; 
+03FC : 0000 ; --data u
+03FD : 0075 ; 
+03FE : 0000 ; --data m
+03FF : 006D ; 
+0400 : 0000 ; --data b
+0401 : 0062 ; 
+0402 : 0000 ; --data e
+0403 : 0065 ; 
+0404 : 0000 ; --data r
+0405 : 0072 ; 
+0406 : 0000 ; --data  
+0407 : 0020 ; 
+0408 : 0000 ; --data e
+0409 : 0065 ; 
+040A : 0000 ; --data n
+040B : 006E ; 
+040C : 0000 ; --data t
+040D : 0074 ; 
+040E : 0000 ; --data e
+040F : 0065 ; 
+0410 : 0000 ; --data r
+0411 : 0072 ; 
+0412 : 0000 ; --data e
+0413 : 0065 ; 
+0414 : 0000 ; --data d
+0415 : 0064 ; 
+0416 : 0000 ; --data  
+0417 : 0020 ; 
+0418 : 0000 ; --data w
+0419 : 0077 ; 
+041A : 0000 ; --data a
+041B : 0061 ; 
+041C : 0000 ; --data s
+041D : 0073 ; 
+041E : 0000 ; --data  
+041F : 0020 ; 
+0420 : 0000 ; --data end of label
+0421 : 000A ; 
+0422 : 0000 ; --data T
+0423 : 0054 ; 
+0424 : 0000 ; --data h
+0425 : 0068 ; 
+0426 : 0000 ; --data e
+0427 : 0065 ; 
+0428 : 0000 ; --data  
+0429 : 0020 ; 
+042A : 0000 ; --data s
+042B : 0073 ; 
+042C : 0000 ; --data e
+042D : 0065 ; 
+042E : 0000 ; --data c
+042F : 0063 ; 
+0430 : 0000 ; --data o
+0431 : 006F ; 
+0432 : 0000 ; --data n
+0433 : 006E ; 
+0434 : 0000 ; --data d
+0435 : 0064 ; 
+0436 : 0000 ; --data  
+0437 : 0020 ; 
+0438 : 0000 ; --data n
+0439 : 006E ; 
+043A : 0000 ; --data u
+043B : 0075 ; 
+043C : 0000 ; --data m
+043D : 006D ; 
+043E : 0000 ; --data b
+043F : 0062 ; 
+0440 : 0000 ; --data e
+0441 : 0065 ; 
+0442 : 0000 ; --data r
+0443 : 0072 ; 
+0444 : 0000 ; --data  
+0445 : 0020 ; 
+0446 : 0000 ; --data e
+0447 : 0065 ; 
+0448 : 0000 ; --data n
+0449 : 006E ; 
+044A : 0000 ; --data t
+044B : 0074 ; 
+044C : 0000 ; --data e
+044D : 0065 ; 
+044E : 0000 ; --data r
+044F : 0072 ; 
+0450 : 0000 ; --data e
+0451 : 0065 ; 
+0452 : 0000 ; --data d
+0453 : 0064 ; 
+0454 : 0000 ; --data  
+0455 : 0020 ; 
+0456 : 0000 ; --data w
+0457 : 0077 ; 
+0458 : 0000 ; --data a
+0459 : 0061 ; 
+045A : 0000 ; --data s
+045B : 0073 ; 
+045C : 0000 ; --data  
+045D : 0020 ; 
+045E : 0000 ; --data end of label
+045F : 000A ; 
+0460 : 0000 ; --Free
+0461 : 0000 ; 
+0462 : 0000 ; --Free
+0463 : 0000 ; 
+0464 : 0000 ; --Free
+0465 : 0000 ; 
+0466 : 0000 ; --Free
+0467 : 0000 ; 
+0468 : 0000 ; --Free
+0469 : 0000 ; 
+046A : 0000 ; --Free
+046B : 0000 ; 
+046C : 0000 ; --Free
+046D : 0000 ; 
+046E : 0000 ; --Free
+046F : 0000 ; 
+0470 : 0000 ; --Free
+0471 : 0000 ; 
+0472 : 0000 ; --Free
+0473 : 0000 ; 
+0474 : 0000 ; --Free
+0475 : 0000 ; 
+END

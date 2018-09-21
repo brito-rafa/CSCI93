@@ -1,0 +1,15 @@
+*.iml
+*.ipr
+*.iws
+*.qpf
+*.qsf
+*.log
+*.txt
+*.qws
+timing
+simulation
+board
+db
+incremental_db
+cscie93
+output_files
