@@ -30,6 +30,6 @@ https://www.youtube.com/watch?v=gvAxTfBhVyo
 My final grade was A- :)
 
 
-(*) Why Vulture? It is the mascot of my brazilian soccer team, (Flamengo)[https://en.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo]. The picture of king vulture on this README is from [O'Reilly SpamAssassin Book](https://www.oreilly.com/library/view/spamassassin/0596007078/) - this project has nothing to do with Spam, and I took the liberty to use its art - thank you so much!
+(*) Why Vulture? It is the mascot of my brazilian soccer team, [Flamengo](https://en.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo). The picture of king vulture on this README is from [O'Reilly SpamAssassin Book](https://www.oreilly.com/library/view/spamassassin/0596007078/) - this project has nothing to do with Spam, and I took the liberty to use its art - thank you so much!
 
 
